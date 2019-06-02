@@ -56,12 +56,10 @@ end
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_comb|
-    flag = win_comb.all?{ |i| i=="X"}
-    if flag == true
+    if win_comb.all?{ |i| i=='X'}
       return true
     end
-    flag = win_comb.all?{ |i| i=="O"}
-    if flag == true
+    if win_comb.all?{ |i| i=='O"''}
       return true
     end
   end
