@@ -96,7 +96,7 @@ def play(board)
     over = over?(board)
   end
   if draw?(board)
-    puts "Game Over!\nIt's a draw."
+    puts "Cat's Game"
   else
     puts "Congratulations #{winner(board)}!"
   end
