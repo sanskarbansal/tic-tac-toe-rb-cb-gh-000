@@ -88,7 +88,6 @@ return nil
 end
 
 def play(board)
-  puts "Welcome to Tic Tac Toe!"
   display_board(board)
   over = over?(board)
   while !over
