@@ -27,4 +27,7 @@ def valid_move?(board, pos)
 end
 
 def turn(board)
+  puts "Please enter a number between 1-9:"
+  number = gets.strip
+
 end
