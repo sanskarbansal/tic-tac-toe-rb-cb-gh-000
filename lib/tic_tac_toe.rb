@@ -62,3 +62,5 @@ def won?(board)
   end
   return false
 end
+board = board = %w[X O X O X X O O X]
+won(board)
