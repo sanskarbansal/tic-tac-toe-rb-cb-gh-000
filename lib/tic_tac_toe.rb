@@ -80,7 +80,7 @@ def winner(board)
     if win_comb.all? { |i| board[i] == "X"}
       return "X"
     end
-    if win_comb.all? { |i| board[i] == "X"}
+    if win_comb.all? { |i| board[i] == "O"}
       return "O"
     end
   end
