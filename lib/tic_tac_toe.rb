@@ -77,10 +77,10 @@ end
 
 def winner(board)
   WIN_COMBINATIONS.each do |win_comb|
-    if win_comb.all? { |i| board[i] == "X"} 
+    if win_comb.all? { |i| board[i] == "X"}
       return "X"
     end
-    if win_comb.all? { |i| board[i] == "X"} 
+    if win_comb.all? { |i| board[i] == "X"}
       return "O"
     end
   end
