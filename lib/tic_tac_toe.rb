@@ -19,5 +19,5 @@ def move(board, pos, val)
 end
 
 def position_taken?(board, pos)
-  return board[pos]=="X" || board[pos]=="O"
+   board[pos]=="X" || board[pos]=="O"
 end
