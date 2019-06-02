@@ -59,7 +59,7 @@ def won?(board)
     if win_comb.all?{ |i| i=='X'}
       return true
     end
-    if win_comb.all?{ |i| i=='O"''}
+    if win_comb.all?{ |i| i=='O'}
       return true
     end
   end
