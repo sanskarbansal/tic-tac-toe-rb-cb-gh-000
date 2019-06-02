@@ -22,6 +22,6 @@ def position_taken?(board, pos)
    board[pos]=="X" || board[pos]=="O"
 end
 
-def valid_move(board, pos)
+def valid_move?(board, pos)
   (pos >= 0 && pos <=8) && !position_taken?(board, pos)
 end
