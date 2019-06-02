@@ -60,7 +60,8 @@ def won?(board)
     if flag == true
       return true
     end
-    if win_comb.all?{ |i| i=="O"}
+    flag = win_comb.all?{ |i| i=="O"}
+    if flag == true
       return true
     end
   end
