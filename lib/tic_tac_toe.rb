@@ -96,6 +96,6 @@ def play(board)
   end
   if draw?(board)
     puts "Game Over!\nIt's a draw."
-  else 
+  else
     puts "Player #{winner(board)} has been won!"
 end
