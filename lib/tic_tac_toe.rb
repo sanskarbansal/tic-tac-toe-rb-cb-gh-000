@@ -93,6 +93,7 @@ def play(board)
   over = over?(board)
   while !over
     turn(board)
+    over = over?(board)
   end
   if draw?(board)
     puts "Game Over!\nIt's a draw."
