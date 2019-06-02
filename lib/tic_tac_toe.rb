@@ -64,6 +64,5 @@ def won?(board)
 end
 
 def full?(board)
-  def full?(board)
   return board.all?{|el| !(el==nil || el == " ")}
 end
