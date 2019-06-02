@@ -21,3 +21,5 @@ end
 def position_taken?(board, pos)
    board[pos]=="X" || board[pos]=="O"
 end
+
+def valid_move(board, pos)
