@@ -17,3 +17,7 @@ end
 def move(board, pos, val="X")
   board[pos] = val
 end
+
+def position_taken?(board, pos)
+  board[pos]!="X" || board[pos]=="O"
+end
