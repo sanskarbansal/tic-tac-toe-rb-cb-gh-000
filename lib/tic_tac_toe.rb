@@ -60,7 +60,6 @@ def won?(board)
       return win_comb
     end
   end
-  return false
 end
 board = %w[X O X O X X O O X]
 puts won?(board)
