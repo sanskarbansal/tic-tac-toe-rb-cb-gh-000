@@ -23,5 +23,5 @@ def position_taken?(board, pos)
 end
 
 def valid_move(board, pos)
-  pos >= 0 && pos <=8 && !position_taken(board, pos)
+  (pos >= 0 && pos <=8) && !position_taken?(board, pos)
 end
