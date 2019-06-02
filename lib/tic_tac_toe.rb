@@ -55,4 +55,7 @@ def current_player(board)
 end
 
 def won?(board)
+  WIN_COMBINATIONS.each do |win_comb| 
+    win_comb.all?{ |i| do }
+  end
 end
