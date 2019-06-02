@@ -28,6 +28,6 @@ end
 
 def turn(board)
   puts "Please enter a number between 1-9:"
-  number = gets.strip
-
+  number = input_to_index(gets.strip)
+  if valid_move?(board, number) {move(board, number, "X")}
 end
