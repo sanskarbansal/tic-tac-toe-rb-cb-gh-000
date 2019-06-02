@@ -98,4 +98,5 @@ def play(board)
     puts "Game Over!\nIt's a draw."
   else
     puts "Congratulation #{winner(board)}"
+  end
 end
