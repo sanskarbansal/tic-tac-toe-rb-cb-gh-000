@@ -29,11 +29,11 @@ end
 def turn(board)
   puts "Please enter a number between 1-9:"
   number = input_to_index(gets.strip)
-  if valid_move?(board, number) 
+  if valid_move?(board, number)
     move(board, number, "X")
     display_board(board)
-  else 
+  else
     turn(board)
-  end 
+  end
 
 end
