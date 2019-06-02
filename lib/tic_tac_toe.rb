@@ -47,4 +47,9 @@ def turn_count(board)
   return count
 end
 def current_player(board)
+  n = turn_count(board)
+  if n%2 == 0
+    return "X"
+  end
+  return "O"
 end
