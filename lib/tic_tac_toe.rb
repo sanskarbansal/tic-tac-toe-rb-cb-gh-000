@@ -63,4 +63,4 @@ def won?(board)
   return false
 end
 board = %w[X O X O X X O O X]
-puts (board)
+puts (board[i].class)
