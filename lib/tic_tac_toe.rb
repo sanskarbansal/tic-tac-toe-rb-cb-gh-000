@@ -93,6 +93,6 @@ def play(board)
   over = over?(board)
   while !over
     turn(board)
-    
+
   end
 end
